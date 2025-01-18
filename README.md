@@ -1,6 +1,6 @@
 # Challange conversor de moneda Alura-Latam | Oracle Next Education
 
-# Conversor de Moneda en Java
+## Conversor de Moneda en Java
 
 Este es un proyecto de conversión de monedas desarrollado en Java, que permite convertir entre diversas monedas (Dólar, Peso argentino, Real brasileño, Peso chileno) utilizando la API de ExchangeRate-API. Además, registra cada conversión realizada en un archivo log y genera un archivo JSON con el resultado
 
