@@ -1,3 +1,5 @@
+# Challange conversor de moneda Alura-Latam | Oracle Next Education
+
 # Conversor de Moneda en Java
 
 Este es un proyecto de conversión de monedas desarrollado en Java, que permite convertir entre diversas monedas (Dólar, Peso argentino, Real brasileño, Peso chileno) utilizando la API de ExchangeRate-API. Además, registra cada conversión realizada en un archivo log y genera un archivo JSON con el resultado
@@ -23,18 +25,6 @@ Este es un proyecto de conversión de monedas desarrollado en Java, que permite 
 
 Configuración del proyecto: Asegúrate de haber importado las dependencias de Gson y cualquier otra librería que uses para manejar solicitudes HTTP.
 
-###Uso
-
-    Al ejecutar el programa, se presentará un menú en la consola donde podrás seleccionar la conversión deseada. Las opciones disponibles son:
-        Dólar a Peso argentino
-        Peso argentino a Dólar
-        Dólar a Real brasileño
-        Real brasileño a Dólar
-        Dólar a Peso chileno
-        Peso chileno a Dólar
-        El programa pedirá ingresar un valor a convertir y mostrará el resultado de la conversión en la consola. 
-        También se generará un archivo JSON con el detalle de la conversión, 
-        y cada conversión realizada quedará registrada en un archivo de log.
 
 ### Estructura del Proyecto
 
