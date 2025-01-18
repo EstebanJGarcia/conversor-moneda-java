@@ -52,7 +52,7 @@ Es la clase que contiene la estructura de los resultados de la conversión, como
 
 
 Ejemplo de ejecución:
-```bat
+```
 Conversor de Moneda
 Selecciona una conversión:
     1- Dólar => Peso argentino
@@ -68,6 +68,7 @@ El valor de 100 [USD] equivale a 10650.0 [ARS]
 ```
 
 ### Ejemplo del archivo Json que se genera:
+```
 (USD-ARS.json)
 {
   "base_code": "USD",
@@ -75,12 +76,14 @@ El valor de 100 [USD] equivale a 10650.0 [ARS]
   "conversion_rate": 1044.5,
   "conversion_result": 1044500.0
 }
-
+```
 ### Ejemplo del archivo log que se actualiza al salir del conversor:
 (registro_conversiones.log)
 
+```
 [2025-01-18 02:20:39] Conversión realizada: USD -> ARS
 [2025-01-18 02:21:20] Conversión realizada: ARS -> USD
 [2025-01-18 02:25:56] Conversión realizada: ARS -> USD
+```
 
 
