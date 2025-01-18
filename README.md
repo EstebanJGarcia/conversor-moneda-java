@@ -23,8 +23,10 @@ Este es un proyecto de conversión de monedas desarrollado en Java, que permite 
 
 ### API Key de ExchangeRate-API: Necesitas registrarte en [ExchangeRate-API](https://www.exchangerate-api.com/) y obtener tu clave API. Esta clave se utiliza para realizar las solicitudes de tasa de cambio entre las distintas monedas.
 
-Configuración del proyecto: Asegúrate de haber importado las dependencias de Gson y cualquier otra librería que uses para manejar solicitudes HTTP.
-
+```
+Configuración del proyecto: 
+    Asegúrate de haber importado las dependencias de Gson y cualquier otra librería que uses para manejar solicitudes HTTP.
+```
 
 ### Estructura del Proyecto
 
