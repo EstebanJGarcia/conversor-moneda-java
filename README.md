@@ -32,7 +32,9 @@ Configuración del proyecto: Asegúrate de haber importado las dependencias de G
         Real brasileño a Dólar
         Dólar a Peso chileno
         Peso chileno a Dólar
-        El programa pedirá ingresar un valor a convertir y mostrará el resultado de la conversión en la consola. También se generará un archivo JSON con el detalle de la conversión, y cada conversión realizada quedará registrada en un archivo de log.
+        El programa pedirá ingresar un valor a convertir y mostrará el resultado de la conversión en la consola. 
+        También se generará un archivo JSON con el detalle de la conversión, 
+        y cada conversión realizada quedará registrada en un archivo de log.
 
 ### Estructura del Proyecto
 
@@ -50,7 +52,7 @@ Es la clase que contiene la estructura de los resultados de la conversión, como
 
 
 Ejemplo de ejecución:
-```bash
+```bat
 Conversor de Moneda
 Selecciona una conversión:
     1- Dólar => Peso argentino
