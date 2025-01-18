@@ -2,8 +2,8 @@
 
 Este es un proyecto de conversión de monedas desarrollado en Java, que permite convertir entre diversas monedas (Dólar, Peso argentino, Real brasileño, Peso chileno) utilizando la API de ExchangeRate-API. Además, registra cada conversión realizada en un archivo log y genera un archivo JSON con el resultado
 
-Requisitos
-    - Java 17 o superior
+### Requisitos
+    Java 17 o superior
     - Librerías externas:
     - Gson (para manipulación de archivos JSON)
         Puedes incluir estas dependencias en tu pom.xml si usas Maven:
@@ -13,8 +13,9 @@ Requisitos
     <artifactId>gson</artifactId>
     <version>2.8.8</version>
 </dependency>
-Configuración
+
 ```
+###Configuración
 
 ##API Key de ExchangeRate-API: Necesitas registrarte en [ExchangeRate-API](https://www.exchangerate-api.com/) y obtener tu clave API. Esta clave se utiliza para realizar las solicitudes de tasa de cambio entre las distintas monedas.
 
