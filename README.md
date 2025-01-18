@@ -17,24 +17,25 @@ Este es un proyecto de conversión de monedas desarrollado en Java, que permite 
 
 ```
 
-##Configuración
+## Configuración
 
-###API Key de ExchangeRate-API: Necesitas registrarte en [ExchangeRate-API](https://www.exchangerate-api.com/) y obtener tu clave API. Esta clave se utiliza para realizar las solicitudes de tasa de cambio entre las distintas monedas.
+### API Key de ExchangeRate-API: Necesitas registrarte en [ExchangeRate-API](https://www.exchangerate-api.com/) y obtener tu clave API. Esta clave se utiliza para realizar las solicitudes de tasa de cambio entre las distintas monedas.
 
 Configuración del proyecto: Asegúrate de haber importado las dependencias de Gson y cualquier otra librería que uses para manejar solicitudes HTTP.
 
-Uso
-Al ejecutar el programa, se presentará un menú en la consola donde podrás seleccionar la conversión deseada. Las opciones disponibles son:
+###Uso
 
-Dólar a Peso argentino
-Peso argentino a Dólar
-Dólar a Real brasileño
-Real brasileño a Dólar
-Dólar a Peso chileno
-Peso chileno a Dólar
-El programa pedirá ingresar un valor a convertir y mostrará el resultado de la conversión en la consola. También se generará un archivo JSON con el detalle de la conversión, y cada conversión realizada quedará registrada en un archivo de log (registro_conversiones.log).
+    Al ejecutar el programa, se presentará un menú en la consola donde podrás seleccionar la conversión deseada. Las opciones disponibles son:
+        Dólar a Peso argentino
+        Peso argentino a Dólar
+        Dólar a Real brasileño
+        Real brasileño a Dólar
+        Dólar a Peso chileno
+        Peso chileno a Dólar
+        El programa pedirá ingresar un valor a convertir y mostrará el resultado de la conversión en la consola. También se generará un archivo JSON con el detalle de la conversión, y cada conversión realizada quedará registrada en un archivo de log.
 
-Estructura del Proyecto
+### Estructura del Proyecto
+
 PrincipalConversor.java
 Es el archivo principal que gestiona la interacción con el usuario. Permite seleccionar la conversión de moneda y solicita el valor a convertir. Dependiendo de la opción seleccionada, se hace una consulta a la API y muestra el resultado.
 
@@ -49,7 +50,7 @@ Es la clase que contiene la estructura de los resultados de la conversión, como
 
 
 Ejemplo de ejecución:
-
+```bash
 Conversor de Moneda
 Selecciona una conversión:
     1- Dólar => Peso argentino
@@ -62,8 +63,9 @@ Selecciona una conversión:
 Ingrese una opción [1-6]: 1
 Ingrese el valor que desea convertir (debe ser un número mayor a 0): 100
 El valor de 100 [USD] equivale a 10650.0 [ARS]
+```
 
-Ejemplo del archivo Json que se genera:
+### Ejemplo del archivo Json que se genera:
 (USD-ARS.json)
 {
   "base_code": "USD",
@@ -72,7 +74,7 @@ Ejemplo del archivo Json que se genera:
   "conversion_result": 1044500.0
 }
 
-Ejemplo del archivo log que se actualiza al salir del conversor:
+### Ejemplo del archivo log que se actualiza al salir del conversor:
 (registro_conversiones.log)
 
 [2025-01-18 02:20:39] Conversión realizada: USD -> ARS
